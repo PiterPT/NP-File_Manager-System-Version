@@ -1,6 +1,4 @@
 {
     "version": "1.0.1",
-    "minimumVersion": "1.0.0",
-    "download_url": "https://exemplo.com/downloads/programa",
-    "release_notes": "Correções de erros e novas funcionalidades"
+    "minimumVersion": "1.0.0"
 }
