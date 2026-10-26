@@ -1,4 +1,6 @@
 {
     "version": "1.0.1",
-    "minimumVersion": "1.0.0"
+    "minimumVersion": "1.0.0",
+    "updateUrl": "https://github.com/OWNER/REPO/releases/latest",
+    "message": "Nova versão disponível."
 }
