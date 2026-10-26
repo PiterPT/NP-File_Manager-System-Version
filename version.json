@@ -1,8 +1,7 @@
 {
-    "appEnabled": true,
-    "updatesEnabled": true,
-    "version": "1.0.2",
-    "minimumVersion": "1.0.1",
-    "updateUrl": "https://github.com/PiterPT/NP-File_Manager-System-Version/releases/latest",
-    "message": "Nova versão disponível."
+      "appEnabled": true,
+      "updatesEnabled": true,
+      "minimumVersion": "1.0.0",
+      "message": "A aplicação está temporariamente em manutenção.",
+      "updateUrl": "https://github.com/PiterPT/NP-File_Manager-System-Version/releases/latest"
 }
