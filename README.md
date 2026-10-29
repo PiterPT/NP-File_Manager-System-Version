@@ -33,7 +33,7 @@ taskkill /f /im FileManagerSystem-v1.1.6.exe 2>nul
 This is the preferred and cleanest method, ensuring all hidden imports and embedded media files remain consistently structured.
 
 ```bash
-pyinstaller FileManagerSystem-v1.1.6.spec --clean
+py -m pyinstaller FileManagerSystem-v1.1.6.spec --clean
 ```
 
 ### Option 2: Full CLI Command (Single Line)
@@ -41,7 +41,7 @@ pyinstaller FileManagerSystem-v1.1.6.spec --clean
 To compile directly without maintaining a separate `.spec` file on disk:
 
 ```cmd
-pyinstaller --noconfirm --clean --onefile --windowed --name "FileManagerSystem-v1.1.6" ^
+py -m pyinstaller --noconfirm --clean --onefile --windowed --name "FileManagerSystem-v1.1.6" ^
   --icon "resources/LaucherICON_v1.ico" ^
   --add-data "resources/intro.mp4;resources" ^
   --add-data "resources/button_100.png;resources" ^
